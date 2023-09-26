@@ -1,0 +1,14 @@
+main{
+    padding: 0 3vw 0 3vw ;
+}
+ main section h1{
+    font-style: italic;
+    color: #1a1a1a;
+}
+main section h2{
+    color: #1a1a1a;
+    font-style: oblique;
+}
+main section p{
+    color: black;
+}

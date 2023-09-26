@@ -1,0 +1,71 @@
+::selection {
+    background-color:gray;
+    color: white;
+  }
+.navbar{
+    height: 80px;
+    background-color: 				#E8E8E8 !important;
+    font-size: 17px;
+}
+.nav-logo{
+    width: 100px;
+    margin-left: 20px;
+    filter: drop-shadow(50px 50px 50px white);
+}
+.navbar .nav-link{
+    color:#000!important ;
+    font-weight: 500;
+    font-style: italic !important;
+}
+.navbar .nav-link:hover{
+    text-decoration: underline !important;
+    text-decoration-thickness: 2px !important;
+}
+.navbar-buttons .btn{
+    border-radius: 30%;
+}
+.navbar-buttons .btn  sup span{
+    background-color: red;
+    border-radius: 30%;
+    padding-right: 2px;
+    margin-left: 3px;
+}
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+.contact-content{
+    background-color: #E8E8E8;
+    display: none;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: fit-content;
+    position: absolute;
+    border: 1px solid black;
+}
+.contact-content img{
+    height: 30px;
+    width: 30px;
+}
+.contact-content a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.contact-content > a > span{
+margin-left: 10px;
+}
+.contact-content > a > span:hover{
+    text-decoration: underline;
+}
+.contact:hover .contact-content{
+    display: block;
+}
+.nav-li{
+    position: relative;
+}
+.navbar-toggler:focus{
+    outline:none;
+    box-shadow: none;
+}
+

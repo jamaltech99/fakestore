@@ -1,0 +1,25 @@
+.product-image{
+    overflow: hidden;
+    display: inline-block;
+    mix-blend-mode:darken !important;
+}
+.porduct-image img{
+    transition: transform 0.5s ease;
+    aspect-ratio:2/3 !important;
+    object-fit: contain !important;
+}
+.porduct-image:hover img{
+    transform: scale(1.1);
+}
+.btn {
+    font-size: 18px;
+    font-weight: 400;
+}
+.all-products{
+    background: url(../src/assets/ssspot.svg);
+    padding: 20px 0 20px 0;
+}
+.card{
+    border-radius: 10px !important;
+    background-color: #e8e8e8;
+}
